@@ -1,0 +1,27 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+
+# Generated packages and downloaded media
+/build/
+/dist/
+/bin/
+/downloads/
+*.egg-info/
+
+# Personal settings, history, credentials and local agent notes
+/config/settings.json
+/config/history.json
+/.agents/
+.env
+.env.*
+!.env.example
+cookies*.txt
+*.log
